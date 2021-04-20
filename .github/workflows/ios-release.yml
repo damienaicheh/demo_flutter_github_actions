@@ -2,7 +2,7 @@ name: Flutter_iOS
 
 on:
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build_ios:
