@@ -1,6 +1,8 @@
 name: Flutter_iOS
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
 
