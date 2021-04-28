@@ -40,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: release-aab-signed
-          path: build/app/outputs/bundle/release/app-release-signed-${{ env.VERSION }}-${{ env.NUMBER_OF_COMMITS }}.aab
+          path: build/app/outputs/bundle/release/app-release-signed.aab
