@@ -1,6 +1,10 @@
 name: Flutter_Android
 
-on: [push]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build_android:
